@@ -9,3 +9,22 @@
         color: white;
     }
 }
+
+.info {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: lightblue;
+
+    .col {
+        padding: 1em;
+        color: white;
+
+        img {
+            width: 80px;
+        }
+
+        h4 {
+            font-size: 1em;
+        }
+    }
+}
