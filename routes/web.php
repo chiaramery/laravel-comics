@@ -9,11 +9,11 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/characters', function () {
-    $data = config('comics.artist');
+    $data = config('comics');
     return view('characters', compact("data"));
 })->name('characters');
 
 Route::get('/movies', function () {
-    $data = config('comics.title');
+    $data = config('comics');
     return view('movies', compact("data"));
 })->name('movies');
