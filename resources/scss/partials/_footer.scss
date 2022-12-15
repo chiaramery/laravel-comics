@@ -1,0 +1,54 @@
+.footer-top {
+    background-color: gray;
+
+    .container-footer {
+        width: 40%;
+        margin-left: 11em;
+
+        .col {
+            color: white;
+        }
+    }
+
+}
+
+.footer-bottom {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    background-color: rgb(48 48 48);
+
+    .container {
+        justify-content: space-between;
+
+        .left {
+            display: flex;
+            align-items: center;
+
+            button {
+                cursor: pointer;
+                color: white;
+                padding: .5em;
+                background-color: rgb(48 48 48);
+                border: 2px solid rgb(29 134 247);
+            }
+        }
+
+        .right {
+            display: flex;
+
+            h1 {
+                color: rgb(29 134 247);
+                font-size: 1em;
+                cursor: pointer;
+                margin-right: .5em;
+            }
+
+            .icon img {
+                margin: .3em;
+            }
+
+        }
+
+    }
+}
